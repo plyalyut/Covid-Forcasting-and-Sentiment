@@ -9,7 +9,7 @@ git clone https://github.com/plyalyut/Covid-Forecasting-And-Sentiment
 ```
 2) Build the docker image 
 ```
-docker build -t COVID_TRACKER
+docker build -t COVID_TRACKER .
 ```
 3) Deploy your docker container
 ```

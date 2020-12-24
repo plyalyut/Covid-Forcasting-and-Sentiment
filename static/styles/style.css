@@ -1,0 +1,25 @@
+stop{
+    background-color: #E5E5F7;
+    opacity: 0.4;
+    background-image: radial-gradient(#444CF7 1px, #E5E5F7 1px);
+    background-size: 20px 20px;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.scrollable-menu::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+}
+.scrollable-menu::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: lightgray;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);
+}
+
+html, body
+{
+    height: 100%;
+}

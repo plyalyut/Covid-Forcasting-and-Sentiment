@@ -8,7 +8,7 @@ This application was used for plotting, forecasting COVID19 cases and deaths at 
 git clone https://github.com/plyalyut/Covid-Forecasting-And-Sentiment
 cd Covid-Forecasting-And-Sentiment
 ```
-2) Create a new YAML file titled config.yaml at the root of the repo that contains your Twitter API keys.
+2) Create a new YAML file titled config.yaml at the root of the repo that contains your Twitter API keys. The contents should be formated as such:
 ```YAML
 consumer_key: INSERT_KEY_HERE
 consumer_secret: INSERT_SECRET_KEY_HERE
